@@ -4,11 +4,11 @@ The Titanic dataset is first loaded using Pandas to examine its structure by dis
 # titanic_data_loading.py
 import pandas as pd
 
-# Load dataset
+ # Load dataset
 df = pd.read_csv("/content/train_and_test2.csv")
 
-# First 5 records
+ # First 5 records
 df.head()
 
-# Last 5 records
+ # Last 5 records
 df.tail()
