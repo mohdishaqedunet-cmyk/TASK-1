@@ -3,6 +3,9 @@ The Titanic dataset is first loaded using Pandas to examine its structure by dis
 
 # titanic_data_loading.py
 import pandas as pd
+
 df = pd.read_csv("/content/train_and_test2.csv")
+
 df.head()
+
 df.tail()
