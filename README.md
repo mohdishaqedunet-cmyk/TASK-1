@@ -10,12 +10,12 @@ df.head()
 
 df.tail()
 
-#titanic_data_overview.py
+# titanic_data_overview.py
 df.info()
 
 df.describe()
 
-#titanic_categorical_analysis.py
+# titanic_categorical_analysis.py
 categorical_cols = df.select_dtypes(include=['object']).columns
 
 for col in categorical_cols:
@@ -24,5 +24,5 @@ for col in categorical_cols:
     
     print(df[col].value_counts())
 
-    #titanic_data_cleaning_check.py
+# titanic_data_cleaning_check.py
     df.isnull().sum()
